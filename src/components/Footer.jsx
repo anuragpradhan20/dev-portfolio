@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-4/5 mx-auto flex flex-col items-center justify-center gap-4 my-10'>
+    <div className='md:w-full lg:w-4/5 mx-auto flex flex-col items-center justify-center gap-4 my-10 md:p-4'>
     <div className='w-full flex flex-col gap-1 items-start border-b-2 py-2'>
       <h1 style={{
       background: "linear-gradient(270deg, #DF8908 10%, #B415FF 100%)",

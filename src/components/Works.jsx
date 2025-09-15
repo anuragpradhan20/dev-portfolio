@@ -8,11 +8,11 @@ const Works = () => {
       WebkitBackgroundClip: "text",
       backgroundClip: "text",
       color: "transparent"
-    }} className='text-5xl font-semibold my-6'>My Works</h1>
-    <div className='w-full flex flex-wrap items-center justify-around mb-10'>
+    }} className='lg:text-5xl font-semibold my-6 md:text-3xl'>My Works</h1>
+    <div className='w-full  flex flex-wrap items-center justify-around mb-10'>
        {
          workLinks.map((work,index)=>(
-        <div className='w-1/4 rounded-lg p-2 flex flex-col items-center' key={index}>
+        <div className='lg:w-1/4 md:w-2/6 md:p-2 rounded-lg p-2 flex flex-col items-center' key={index}>
         <a href={work.link} target="_blank" rel="noopener noreferrer"      
          className="hover:text-purple-500 transition-transform"
         ><img src={work.project} alt="" className="w-full object-cover rounded-lg hover:scale-105 hover:transition-transform duration-200"/></a>

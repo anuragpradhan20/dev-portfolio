@@ -8,11 +8,11 @@ const Skill = () => {
       WebkitBackgroundClip: "text",
       backgroundClip: "text",
       color: "transparent"
-    }} className='text-5xl font-semibold my-6'>Skill</h1>
-    <div className='w-3/4 flex flex-wrap items-center justify-between mb-10'>
+    }} className='lg:text-5xl font-semibold my-6 md:text-3xl'>Skill</h1>
+    <div className='lg:w-4/5 md:w-full md:p-4 flex flex-wrap items-center justify-between lg:mb-10 md:mb-0'>
       {
          skillImages.map((image,index)=>(
-          <div className='flex flex-col gap-2 item-center justify-center  hover:scale-110 hover:transition-transform duration-200 hover:text-purple-500' key={index}>
+          <div className='flex flex-col lg:gap-2 md:gap-3 item-center justify-center  hover:scale-110 hover:transition-transform duration-200 hover:text-purple-500' key={index}>
             <img src={image.link} alt="skill image" className='w-16 '/>
             <p className='text-center text-lg font-semibold'>{image.label}</p>
           </div>

@@ -8,18 +8,18 @@ import { navLinks } from '../util/data';
 import { socialLinks } from '../util/data';
 const Navbar = () => {
   return (
-    <div className='p-10 flex justify-around items-center'>
-    <Link to="/"  className="text-4xl font-bold bg-gradient-to-r from-[#DF8908] via-[#FF4D8D] to-[#B415FF] 
+    <div className='w-full  p-10 flex justify-between items-center'>
+    <Link to="/"  className="md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-[#DF8908] via-[#FF4D8D] to-[#B415FF] 
              bg-clip-text text-transparent transition-transform duration-500 
              hover:scale-105 hover:opacity-100">Anurag</Link>
-    <nav className="flex gap-6">
+    <nav className="flex lg:gap-6 md:gap-4">
      {navLinks.map((link) => (
     <ScrollLink
       key={link.to}
       to={link.to}
       smooth={true}
       duration={500}
-      className="relative font-medium text-lg cursor-pointer text-white
+      className="relative font-medium md:text-base lg:text-lg cursor-pointer text-white
              after:content-[''] after:absolute after:left-0 after:bottom-0 
              after:w-0 after:h-[2px] after:bg-[#B415FF] 
              after:transition-all after:duration-300 

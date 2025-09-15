@@ -1,6 +1,5 @@
 import React from "react";
-import Profile from "../images/pexels-mastercowley-1300402.jpg";
-import { Link } from "react-router-dom";
+import Profile from "../images/IMG_4476.jpgk.jpg";
 import { Link as ScrollLink } from "react-scroll";
 const Hero = () => {
   return (
@@ -8,10 +7,10 @@ const Hero = () => {
       <img
         src={Profile}
         alt="profile image"
-        className="w-64 h-64 rounded-full object-cover"
+       className="sm:1/4 md:w-1/4 lg:w-1/5 aspect-square rounded-full object-center"
       />
       <div className="w-2/3  flex flex-col justify-center items-center gap-4">
-        <h1 className="w-full text-6xl font-semibold text-center">
+        <h1 className="w-full lg:text-6xl md:text-3xl font-semibold text-center">
           <span
             style={{
               background: "linear-gradient(270deg, #DF8908 10%, #B415FF 100%)",
@@ -24,12 +23,12 @@ const Hero = () => {
           </span>
           , Frontend Web Developer
         </h1>
-        <p className="w-3/4  text-lg font-semibold  text-center">
+        <p className="w-3/4 lg:text-lg md:text-base font-semibold  text-center">
           I design and develop responsive, user-focused web applications with a
           strong focus on functionality and performance.
         </p>
       </div>
-      <div className="w-1/2 flex items-center justify-around gap-4 my-4">
+      <div className="lg:w-2/3 md:w-full flex items-center justify-center gap-3 my-4">
         <button
           type="button"
           className="w-44 px-2 py-4 rounded-full text-lg text-white font-semibold border cursor-pointer hover:border-purple-500 hover:text-purple-500"

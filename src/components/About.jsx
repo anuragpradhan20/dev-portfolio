@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../images/pexels-mastercowley-1300402.jpg'
+import Profile from '../images/IMG_4476.jpgk.jpg'
 
 const About = () => {
   return (
@@ -9,12 +9,12 @@ const About = () => {
       WebkitBackgroundClip: "text",
       backgroundClip: "text",
       color: "transparent"
-    }} className='text-5xl font-semibold my-6'>About me</h1>
-      <div className='w-3/4 flex gap-6'>
-       <div className="w-2/6">
-        <img  src={Profile} alt="Anurag Pradhan" className="w-full h-full rounded-lg shadow-lg object-cover"/>
+    }} className='lg:text-5xl font-semibold my-6 md:text-3xl'>About me</h1>
+      <div className='w-4/5 flex items-center justify-between lg:gap-10 md:gap-10'>
+       <div className="lg:w-3/12 md:w-2/6">
+        <img  src={Profile} alt="Anurag Pradhan" className="w-full  rounded-sm shadow-lg object-contain"/>
       </div>
-  <div className="w-2/3 max-w-3xl text-lg font-medium text-center leading-snug mx-auto">
+  <div className="lg:w-2/3 max-w-3xl md:w-4/6 lg:text-lg  md:text-sm font-medium text-center leading-snug mx-auto">
   <p className="text-justify">
     I’m <span className="font-semibold">Anurag Pradhan</span>, a frontend developer 
     passionate about building responsive, user-friendly, and functional 
@@ -29,6 +29,7 @@ const About = () => {
     highly functional. My goal is to continuously learn and contribute to 
     innovative projects that make an impact.
   </p>
+   <p className='text-justify mt-6'>I’m excited to keep growing as a developer, taking on new challenges, and building products that make a real difference.</p>
 </div>
 
         </div>

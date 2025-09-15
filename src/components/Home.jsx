@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 const Home = () => {
   return (
-    <div id="home" className='w-screen h-full text-white  overflow-x-hidden'  style={{ backgroundColor: "#181C14",}}>
+    <div id="home" className='lg:w-screen lg:h-full text-white  overflow-x-hidden'  style={{ backgroundColor: "#181C14",}}>
      <Navbar/>
      <Hero/>
      <About/>

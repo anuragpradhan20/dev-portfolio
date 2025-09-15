@@ -30,7 +30,7 @@ const ContactForm = () => {
     }
   return (
     <div>
-        <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
+        <form onSubmit={handleSubmit}  className='flex flex-col gap-4'>
          <div className='flex flex-col items-start gap-2'>
             <label className='text-base font-semibold'>Your Name</label>
             <input type="text" value={formData.name} name="name" placeholder="Enter your name" onChange={(e)=>{setFormData({ ...formData, name: e.target.value })}} required

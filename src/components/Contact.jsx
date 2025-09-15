@@ -11,8 +11,8 @@ const Contact = () => {
       WebkitBackgroundClip: "text",
       backgroundClip: "text",
       color: "transparent"
-    }} className='text-5xl font-semibold my-6'>Get in touch</h1>
-    <div className='w-4/5 flex gap-10'>
+    }} className='lg:text-5xl md:text-3xl font-semibold my-6'>Get in touch</h1>
+    <div className='lg:w-4/5 md:w-full md:p-4  flex gap-10 p-1 '>
       <div className='w-2/5 flex flex-col gap-4 items-start'>
          <h1 style={{
       background: "linear-gradient(270deg, #DF8908 10%, #B415FF 100%)",

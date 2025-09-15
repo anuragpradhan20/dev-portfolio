@@ -10,7 +10,6 @@ export const App = () => {
     </div>
   )
 }
-
 const appRouter=createBrowserRouter([
   {
     path:"/",
